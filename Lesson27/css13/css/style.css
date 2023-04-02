@@ -1,0 +1,17 @@
+.block {
+	padding: 20px;
+}
+
+.block__text {
+color: black;
+}
+
+.block__text{
+animation: color-text 2s 2s infinite alternate;
+}
+
+@keyframes color-text {
+	100% {
+color: red;
+	}
+}

@@ -1,0 +1,30 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.transform {
+  padding: 100px 0;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+.red {
+  width: 300px;
+  height: 300px;
+}
+
+.red {
+  background-color: rgba(240, 82, 82, 0.699);
+}
+
+
+.transform__red {
+	transform: translate(10vw) rotate(-30deg);
+}

@@ -1,0 +1,34 @@
+.container {
+  padding: 100px 100px 40vh;
+  height: 100%;
+}
+
+.block {
+  height: 300px;
+  background-color: #366d5b;
+  border: 5px solid #000000;
+}
+
+.block {
+	transition-duration: 3s;
+	transition-delay: 2s;
+}
+
+.block-1 {
+  height: 300px;
+  background-color: #c09595;
+  border: 5px solid #000000;
+}
+
+.block-1 {
+transition: border-color 3s 2s;
+}
+
+.block-1:hover {
+	border-color: darkgreen;
+}
+
+.block:hover {
+	border-color: aqua;
+
+}
